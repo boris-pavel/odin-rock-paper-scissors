@@ -1,2 +1,3 @@
-# odin-rock-paper-scissors
+# Project: Rock Paper Scissors
+
 A simple implementation of grade-school classic “rock paper scissors”.
