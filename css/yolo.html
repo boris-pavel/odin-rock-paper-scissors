@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My 100vh Web Page</title>
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      
+      header {
+        background-color: #333;
+        color: #fff;
+      }
+      
+      main {
+        flex-grow: 1;
+        background-color: #eee;
+      }
+      
+      footer {
+        background-color: #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <p>This is the main content of my web page.</p>
+      </main>
+      <footer>
+        <p>&copy; 2022 My Website. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
