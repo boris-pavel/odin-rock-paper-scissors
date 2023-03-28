@@ -81,7 +81,7 @@ a {
     height: auto;
 }
 
-img {
+#computer-choice {
     max-width: 70%;
     height: auto;
 }
@@ -98,4 +98,8 @@ img {
 .header {
     display: flex;
     justify-content: space-around;
+}
+
+#play-again{
+    display: none;
 }
