@@ -5,9 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="js/javascript.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/javascript.js" defer></script>
+    
 </head>
 <body>
-    
+    <div class="game">
+        <div class="player-choice">
+            <img src="img/rock.png" alt="A rock sign">
+            <img src="img/paper.png" alt="A paper sign">
+            <img src="img/scissors.png" alt="A scissors sign">
+        </div>
+        <div class="scoreboard">
+            <div class="title">The Rock Paper Scissors Game!</div>
+            <div class="score">
+                <div class="player-score">0</div>
+                <div class="separator">:</div>
+                <div class="computer-score">0</div>
+            </div>
+            <button id="play-again">Start the game</button>
+        </div>
+        <div class="computer-choice">
+            <img src="img/question-mark.png" alt="A question mark">
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://www.flaticon.com/free-icons/question" title="question icons">Question icons created by Freepik - Flaticon</a>
+        <a href="https://www.flaticon.com/free-icons/rock-paper-scissors" title="rock paper scissors icons">Rock paper scissors icons created by Freepik - Flaticon</a>
+    </div>
 </body>
 </html>

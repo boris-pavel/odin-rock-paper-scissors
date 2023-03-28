@@ -51,7 +51,7 @@ function game() {
     let computerScore = 0;
 
     for (let i = 0; i < 5; ++i) {
-        let playerSelection = prompt('Input your choice');
+        //let playerSelection = prompt('Input your choice');
         let outcome = playRound(playerSelection, getComputerChoice())
         switch (outcome) {
             case 0:
