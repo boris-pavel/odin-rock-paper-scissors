@@ -28,6 +28,7 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: larger;
 }
 
 .score {
@@ -35,18 +36,19 @@ html, body{
 }
 
 .player-choice {
-    flex: 2;
+    flex: 3;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .computer-choice {
-    flex: 2;
+    flex: 3;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-be;
 }
 
 .player-choice > * {
@@ -71,6 +73,7 @@ a {
 
 .choice-title {
     text-align: center;
+    font-size: larger;
 }
 
 .player-choice > .img-container > img{
@@ -90,4 +93,9 @@ img {
     display: flex;
     justify-content: center;
     
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
 }
